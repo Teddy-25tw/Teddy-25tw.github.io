@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+	
+	document.addEventListener("mousemove",
+		function(){
+			let red = Math.random()*255;
+			let green = Math.random()*255;
+			let blue = Math.random()*255;
+			document.body.style.backgroundColor =
+				"rgb("+red+","+0+","+80+")"
+		})
+	function name (placeholder){
+		console.log("hi " + placeholder)
+	}	
+	name("blah blah");
+
+	function hello (placeholder){
+		alert("hi " + placeholder)
+		console.log("hi " + placeholder)
+	}
+	function add (x,y){
+		console.log(x+y)
+	}
+	</script>
+
+</body>
+</html>
